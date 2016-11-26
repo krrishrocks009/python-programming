@@ -1,0 +1,12 @@
+index
+1. what is python?
+2. what are python data types?
+3. what is the difference between tuple and list?
+4. how does python manage memory?
+5. what is duck typing in python?
+6. what is dynamic typing in python?
+7. what does super keyword mean in python?
+8. python oops concepts?
+9. what is multiple and multilevel inheritance in python?
+10. what is static class method,class method in python?
+

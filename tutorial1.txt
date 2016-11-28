@@ -1,0 +1,27 @@
+index
+1. what is python?
+2. what are python data types?
+3. what is the difference between tuple and list?
+4. how does python manage memory?
+5. what is duck typing in python?
+6. what is dynamic typing in python?
+7. what does super keyword mean in python?
+8. python oops concepts?
+9. what is multiple and multilevel inheritance in python?
+10. what is static class method,class method in python?
+11. difference between python2.x and python3.x
+12. what is namespace in python?
+13. what is an object?
+14. what is class?
+15. what is garbage collector?
+16. what is dereferencing in python?
+17. what is private heap in python?
+18. what is slicing(list,tuple) in pythin?
+19. what is deep copy and shallow copy?
+20. what is mutable and immutable?
+21. what are pep8 standards?
+22. what are global and local variables in python?
+23. what is the difference between class method and function?
+24. builtin methods on list objects?
+25. what is a dictionary?
+

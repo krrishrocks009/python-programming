@@ -24,4 +24,5 @@ index
 23. what is the difference between class method and function?
 24. builtin methods on list objects?
 25. what is a dictionary?
+26. what is the difference between args and kwargs?
 

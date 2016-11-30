@@ -25,6 +25,7 @@ index
 24. builtin methods on list objects?
 25. what is a dictionary?
 26. what is the difference between args and kwargs?
-27. 
+27. what are decorators?
+ 
 >>>>>>> c74d3836aa3f6f94c2d1d34c45dbed7b431dcf4b
 

@@ -1,0 +1,62 @@
+1. Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently where as other languages use punctuation, and it has fewer syntactical constructions than other languages.
+2. python has five standard data types
+numbers, string, list, tuple, dictionary
+3. The main differences between lists and tuples are: Lists are enclosed in brackets ( [ ] ) and their elements and size can be changed, while tuples are enclosed in parentheses ( ( ) ) and cannot be updated.
+4. Memory management in Python involves a private heap containing all Python objects and data structures. The management of this private heap is ensured internally by the Python memory manager. The Python memory manager has different components which deal with various dynamic storage management aspects, like sharing, segmentation, preallocation or caching
+5. Duck typing means that an operation does not formally specify the requirements that its operands have to meet, but just tries it out with what is given.
+6. Dynamic Typing means that names/variables are not bound to a specific type at compile time. We can make the same name point to different types of objects in the same program (at different lines ofcourse). But it does not mean that you can access a name/variable before its defined.
+7.
+
+
+
+8. 
+
+
+
+
+9. In multiple inheritance, the features of all the base classes are inherited into the derived class. The syntax for multiple inheritance is similar to single inheritance.
+   In multilevel inheritance, features of the base class and the derived class is inherited into the new derived class.
+10.
+
+
+
+11.
+
+
+
+
+12.
+
+
+
+
+13. everything in Python is an object. Strings are objects. Lists are objects. Functions are objects. Even modules are objects.
+14. Think of a class as a blueprint. It isn't something in itself, it simply describes how to make something. You can create lots of objects from that blueprint - known technically as an instance.
+15.
+
+
+
+
+16.
+
+
+
+
+17. Memory management in Python involves a private heap containing all Python objects and data structures. The management of this private heap is ensured internally by the Python memory manager.
+18.
+
+
+19. A shallow copy constructs a new compound object and then (to the extent possible) inserts references into it to the objects found in the original.
+    A deep copy constructs a new compound object and then, recursively, inserts copies into it of the objects found in the original.
+20. The value of some objects can change. Objects whose value can change are said to be mutable; objects whose value is unchangeable once they are created are called immutable
+21.
+
+
+
+22. Any variable which is changed or created inside of a function is local, if it hasn't been declared as a global variable. To tell Python, that we want to use the global variable, we have to use the keyword "global"
+23.  methods are associated with object instances or classes; functions aren't. When Python dispatches (calls) a method, then it binds the first parameter of that call to the appropriate object reference. (For most methods that's conventionally called self).
+24. 
+
+
+
+25. A dictionary is an associative array (also known as hashes). Any key of the dictionary is associated (or mapped) to a value. The values of a dictionary can be any Python data type. So dictionaries are unordered key-value-pairs.

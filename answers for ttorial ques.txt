@@ -1,0 +1,103 @@
+Answers:
+
+1. Python is a widely used high-level, general-purpose, interpreted, dynamic programming language. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C++ or Java. The language provides constructs intended to enable clear programs on both a small and large scale.
+
+2. Some immutable types:
+int, float, long, complex.
+str.
+bytes.
+tuple.
+frozen set.
+The following are some mutable objects:
+list
+dict
+set
+bytearray
+user-defined classes (unless specifically made immutable)
+
+3. The literal syntax of tuples is shown by parentheses.
+Tuples are immutable. By “immutable,” it is meant that once they are created, they do not support any additional operations which might be added to the language and cannot be modified after they are created.
+
+The literal syntax of lists is shown by square brackets.
+Lists are mutable. By “mutable” it is meant that these objects are capable of supporting additional operations. So the list sequence is a type of sequence which supports operations when it is added to the language even after the creation.
+
+4. Memory management in Python involves a private heap containing all Python objects and data structures. The management of this private heap is ensured internally by the Python memory manager. The Python memory manager has different components which deal with various dynamic storage management aspects, like sharing, segmentation, preallocation or caching.
+
+5. In computer programming with object-oriented programming languages, duck typing is a style of typing in which an object's methods and properties determine the valid semantics, rather than its inheritance from a particular class or implementation of a specific interface
+
+6. Dynamic Typing means that names/variables are not bound to a specific type at compile time. We can make the same name point to different types of objects in the same program (at different lines ofcourse). But it does not mean that you can access a name/variable before its defined.
+
+7. Return a proxy object that delegates method calls to a parent or sibling class of type. This is useful for accessing inherited methods that have been overridden in a class. In cases where you have multiple inheritance, the super() helps to ensure that the proper method resolution order (MRO) is followed when moving up the inheritance tree.
+
+8. There are some basic programming concepts in OOP:
+
+Abstraction
+Polymorphism
+Encapsulation
+Inheritance
+The abstraction is simplifying complex reality by modeling classes appropriate to the problem. The polymorphism is the process of using an operator or function in different ways for different data input. The encapsulation hides the implementation details of a class from other objects. The inheritance is a way to form new classes using classes that have already been defined.
+
+9.In multiple inheritance, the features of all the base classes are inherited into the derived class. The syntax for multiple inheritance is similar to single inheritance.
+   In multilevel inheritance, features of the base class and the derived class is inherited into the new derived class.
+
+10. A staticmethod is a method that knows nothing about the class or instance it was called on. It just gets the arguments that were passed, no implicit first argument. It is basically useless in Python -- you can just use a module function instead of a staticmethod.
+
+A classmethod, on the other hand, is a method that gets passed the class it was called on, or the class of the instance it was called on, as first argument. This is useful when you want the method to be a factory for the class: since it gets the actual class it was called on as first argument, you can always instantiate the right class, even when subclasses are involved.
+
+11. Print: In Python 2, “print” is treated as a statement rather than a function. There is no need to wrap the text you want to print in parentheses, although you can if you want.In contrast, Python 3 explicitly treats “print” as a function, which means you have to pass the items you need to print to the function in parentheses in the standard way, or you will get a syntax error.
+
+Integer Division: Python 2 treats numbers that you type without any digits after the decimal point as integers, which can lead to some unexpected results during division. Python 3 evaluates 3 / 2 as 1.5 by default, which is more intuitive for new programmers.
+
+Unicode Strings: Python 3 stores strings as Unicode by default, whereas Python 2 requires you to mark a string with a “u” if you want to store it as Unicode.
+
+Raising Exceptions: Python 3 requires different syntax for raising exceptions. If you want to output an error message to the user, you need to use the syntax:
+raise IOError(“your error message”)
+
+This syntax works in Python 2 as well. The following code works only in Python 2, not Python 3:
+
+raise IOError, “your error message”
+
+12. Namespaces in Python are implemented as Python dictionaries, this means it is a mapping from names (keys) to objects (values). The user doesn't have to know this to write a Python program and when using namespaces. Some namespaces in Python: global names of a module. local names in a function or method invocation.
+
+13.  everything in Python is an object. Strings are objects. Lists are objects. Functions are objects. Even modules are objects.
+
+14. Think of a class as a blueprint. It isn't something in itself, it simply describes how to make something. You can create lots of objects from that blueprint - known technically as an instance.
+
+15.gc exposes the underlying memory management mechanism of Python, the automatic garbage collector. The module includes functions for controlling how the collector operates and to examine the objects known to the system, either pending collection or stuck in reference cycles and unable to be freed.
+
+16. 
+
+
+
+17. Memory management in Python involves a private heap containing all Python objects and data structures. The management of this private heap is ensured internally by the Python memory manager.
+
+18.
+
+
+
+19.  A shallow copy constructs a new compound object and then (to the extent possible) inserts references into it to the objects found in the original.
+    A deep copy constructs a new compound object and then, recursively, inserts copies into it of the objects found in the original.
+
+20. The value of some objects can change. Objects whose value can change are said to be mutable; objects whose value is unchangeable once they are created are called immutable.
+
+21. 
+
+
+
+22. Any variable which is changed or created inside of a function is local, if it hasn't been declared as a global variable. To tell Python, that we want to use the global variable, we have to use the keyword "global"
+
+23.  methods are associated with object instances or classes; functions aren't. When Python dispatches (calls) a method, then it binds the first parameter of that call to the appropriate object reference. (For most methods that's conventionally called self).
+
+24.
+
+
+
+25. A dictionary is an associative array (also known as hashes). Any key of the dictionary is associated (or mapped) to a value. The values of a dictionary can be any Python data type. So dictionaries are unordered key-value-pairs.
+
+26. *args = list of arguments -as positional arguments
+**kwargs = dictionary - whose keys become separate keyword arguments and the values become values of these arguments.
+
+27. Decorators dynamically alter the functionality of a function, method, or class without having to directly use subclasses or change the source code of the function being decorated. 
+
+
+ 
